@@ -20,7 +20,7 @@ public class VC_Order_Update {
 		//initiate url
 		String url = "https://manage.boddess.com/admin/admin/";
 		driver.get(url);
-		Thread.sleep(50000);
+		Thread.sleep(5000);
 
 		//username
 		WebElement uname = driver.findElement(By.xpath("//*[@id='username']"));
