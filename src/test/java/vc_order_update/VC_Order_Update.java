@@ -39,7 +39,7 @@ public class VC_Order_Update {
 		Thread.sleep(5000);
 
 		// order update loop
-		for (int input = 1307981; input <= 1307984; input = input + 3) {
+		for (int input = 1308251; input <= 1308359; input = input + 3) {
 			try {
 				String url1 = "https://manage.boddess.com/admin/sales/order/view/order_id/" + input + "/";
 				driver.get(url1);
