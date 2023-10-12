@@ -6,24 +6,28 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class VC_Order_Update {
 
 	@Test
 	public void update() throws Exception {
-		
-		//driver initialization
-		System.setProperty("webdriver.gecko.driver", "D:\\Govind Tyagi-HOB Data\\Softwares\\geckodriver.exe");
+
+		// driver initialization
+		// System.setProperty("webdriver.gecko.driver", "D:\\Govind Tyagi-HOB
+		// Data\\Softwares\\geckodriver.exe");
+		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		Thread.sleep(2000);
 
-		//initiate url
+		// initiate url
 		String url = "https://manage.boddess.com/admin/admin/";
 		driver.get(url);
 		Thread.sleep(5000);
 
-		//username
+		// username
 		WebElement uname = driver.findElement(By.xpath("//*[@id='username']"));
 		uname.clear();
 		uname.sendKeys("govind");
@@ -39,7 +43,7 @@ public class VC_Order_Update {
 		Thread.sleep(5000);
 
 		// order update loop
-		for (int input = 1308251; input <= 1308359; input = input + 3) {
+		for (int input = 1307048; input <= 1307345; input = input + 3) {
 			try {
 				String url1 = "https://manage.boddess.com/admin/sales/order/view/order_id/" + input + "/";
 				driver.get(url1);
