@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VC_Order_Update {
@@ -14,8 +13,6 @@ public class VC_Order_Update {
 	public void update() throws Exception {
 
 		// driver initialization
-		// System.setProperty("webdriver.gecko.driver", "D:\\Govind Tyagi-HOB
-		// Data\\Softwares\\geckodriver.exe");
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
