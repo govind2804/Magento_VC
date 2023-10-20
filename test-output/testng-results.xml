@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-17T09:49:38 IST" name="Default suite" finished-at="2023-10-17T10:10:51 IST" duration-ms="1273543">
+  <suite started-at="2023-10-20T09:27:11 IST" name="Default suite" finished-at="2023-10-20T10:00:11 IST" duration-ms="1979220">
     <groups>
     </groups>
-    <test started-at="2023-10-17T09:49:38 IST" name="Default test" finished-at="2023-10-17T10:10:51 IST" duration-ms="1273543">
+    <test started-at="2023-10-20T09:27:11 IST" name="Default test" finished-at="2023-10-20T10:00:11 IST" duration-ms="1979220">
       <class name="vc_order_update.VC_Order_Update">
-        <test-method signature="update()[pri:0, instance:vc_order_update.VC_Order_Update@65c7a252]" started-at="2023-10-17T09:49:38 IST" name="update" finished-at="2023-10-17T10:10:51 IST" duration-ms="1273467" status="PASS">
+        <test-method signature="update()[pri:0, instance:vc_order_update.VC_Order_Update@65c7a252]" started-at="2023-10-20T09:27:11 IST" name="update" finished-at="2023-10-20T10:00:11 IST" duration-ms="1979092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- update -->
