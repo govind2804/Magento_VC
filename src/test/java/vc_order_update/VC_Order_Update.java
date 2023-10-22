@@ -12,7 +12,7 @@ public class VC_Order_Update {
 	@Test
 	public void update() throws Exception {
 
-		// driver initialization
+		// driver initialization by webdrivermanager
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
